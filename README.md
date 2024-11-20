@@ -1,11 +1,11 @@
-# Project_File-Organizer
-This is a Simple Porject  written in Python to automatically categorize and move files into directories based on their extensions or file types. This tool is perfect for keeping your folders clean and organized.
+File Organizer
+A Python-based File Organizer that automatically sorts and organizes files into categorized folders based on their extensions. This tool helps maintain a clean and organized directory by grouping files into specific categories such as images, documents, videos, and more.
 
 Features
-Automatically organizes files into folders based on their extensions.
-Customizable folder categories for specific file types.
-Handles a wide range of file types (documents, images, videos, audio, etc.).
-Lightweight and easy to use.
+Automatically categorizes files into pre-defined folders.
+Supports a wide range of file types (images, documents, videos, audio, etc.).
+Customizable to handle additional file types or categories.
+Handles both current and specified directories.
 Table of Contents
 Installation
 Usage
@@ -97,3 +97,10 @@ bash
 Copy code
 git push origin feature-name
 Open a pull request.
+License
+This project is licensed under the MIT License. Feel free to use and modify it as needed.
+
+Acknowledgments
+Special thanks to the open-source community for inspiring the creation of this tool.
+
+Feel free to customize this file further based on your project's specific details! 🚀
