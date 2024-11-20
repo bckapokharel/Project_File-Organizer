@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+
+# macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Python-specific cache files
+*.egg-info/
+.eggs/
+*.egg
+
+# Folders for IDE configurations
+.idea/
+.vscode/
+
+# Test and output directories
+test-results/
+output/
+
+# Local configuration files
+*.config
+*.ini
+
+# OS-generated files
+*.directory
