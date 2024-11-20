@@ -46,7 +46,7 @@ FILE_TYPE_MAPPING = {
     "Archives": [".zip", ".rar", ".7z"],
 }
 
-#Example
+#Example 
 *Before Running  
 /Downloads 
   ├── image1.jpg 
