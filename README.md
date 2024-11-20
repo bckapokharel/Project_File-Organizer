@@ -1,58 +1,43 @@
-File Organizer
-A Python-based File Organizer that automatically sorts and organizes files into categorized folders based on their extensions. This tool helps maintain a clean and organized directory by grouping files into specific categories such as images, documents, videos, and more.
+#Project File Organizer
+This project  automatically sorts and organizes files into categorized folders based on their extensions. This tool helps maintain a clean and organized directory by grouping files into specific categories such as images, documents, videos, and more.
 
 Features
-Automatically categorizes files into pre-defined folders.
-Supports a wide range of file types (images, documents, videos, audio, etc.).
-Customizable to handle additional file types or categories.
-Handles both current and specified directories.
-Table of Contents
-Installation
-Usage
-Configuration
-Example
-Contributing
-License
-Installation
-Requirements
-Python 3.x
-Steps
-Clone the repository:
+a)Automatically categorizes files into pre-defined folders. 
+b)Supports a wide range of file types (images, documents, videos, audio, etc.). 
+c)Customizable to handle additional file types or categories. 
+d)Handles both current and specified directories. 
 
-bash
-Copy code
+#Table of Contents
+i)Installation 
+ii)Usage 
+iii)Configuration 
+iv)Example 
+v)Contributing 
+
+#Installation 
+Requirements 
+#Python 3.x
+
+*Steps 
+-Clone the repository:
 git clone https://github.com/your-username/file-organizer.git
 cd file-organizer
-(Optional) Create a virtual environment and activate it:
 
-bash
-Copy code
-python -m venv env
-source env/bin/activate    # For Linux/Mac
-env\Scripts\activate       # For Windows
-Install dependencies (if any):
+-Install dependencies (if any):
+pip install -r requirements.txt 
 
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Basic Usage
-Place the script in the directory you want to organize.
-Run the script:
-bash
-Copy code
-python file_organizer.py
+#Usage
+*Basic Usage
+1)Place the script in the directory you want to organize. 
+2)Run the script: 
+python file_organizer.py 
+
 Organize a Specific Directory
 You can specify a target directory as an argument:
-
-bash
-Copy code
 python file_organizer.py /path/to/directory
-Configuration
-You can customize the folder categories and file extensions by modifying the FILE_TYPE_MAPPING dictionary in the file_organizer.py file. For example:
 
-python
-Copy code
+#Configuration
+We can customize the folder categories and file extensions by modifying the FILE_TYPE_MAPPING dictionary in the file_organizer.py file. For example: 
 FILE_TYPE_MAPPING = {
     "Images": [".jpg", ".jpeg", ".png", ".gif"],
     "Documents": [".pdf", ".docx", ".txt"],
@@ -60,47 +45,41 @@ FILE_TYPE_MAPPING = {
     "Audio": [".mp3", ".wav"],
     "Archives": [".zip", ".rar", ".7z"],
 }
-Example
-Before Running
-Copy code
-/Downloads
-  ├── image1.jpg
-  ├── document1.pdf
-  ├── song.mp3
-  ├── movie.mp4
-After Running
-arduino
-Copy code
-/Downloads
-  ├── Images
-  │    └── image1.jpg
-  ├── Documents
-  │    └── document1.pdf
-  ├── Audio
-  │    └── song.mp3
-  ├── Videos
-       └── movie.mp4
-Contributing
-We welcome contributions to enhance the File Organizer. To contribute:
 
-Fork the repository.
-Create a new branch:
-bash
-Copy code
-git checkout -b feature-name
-Make your changes and commit them:
-bash
-Copy code
-git commit -m "Add feature-name"
-Push your branch:
-bash
-Copy code
-git push origin feature-name
-Open a pull request.
-License
-This project is licensed under the MIT License. Feel free to use and modify it as needed.
+#Example
+*Before Running  
+/Downloads 
+  ├── image1.jpg 
+  ├── document1.pdf 
+  ├── song.mp3  
+  ├── movie.mp4 
+  
+*After Running 
+/Downloads 
+  ├── Images 
+  │    └── image1.jpg 
+  ├── Documents 
+  │    └── document1.pdf 
+  ├── Audio 
+  │    └── song.mp3 
+  ├── Videos 
+       └── movie.mp4 
+       
+#Contributing
+To contribute: 
 
-Acknowledgments
-Special thanks to the open-source community for inspiring the creation of this tool.
+a)Fork the repository. 
+b)Create a new branch:
+git checkout -b feature-name 
 
-Feel free to customize this file further based on your project's specific details! 🚀
+c)Make your changes and commit them: 
+git commit -m "Add feature-name" 
+
+d)Push your branch: 
+git push origin feature-name 
+
+e)Open a pull request. 
+
+#Acknowledgments
+I want to give Special thanks to the Upskills Campus tp give me special opportunity to make a project on File Organizer.
+
