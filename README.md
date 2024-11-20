@@ -86,6 +86,7 @@ FILE_TYPE_MAPPING = {
 *Before Running 
 
 /Downloads 
+
   ├── image1.jpg 
   
   ├── document1.pdf 
@@ -98,6 +99,7 @@ FILE_TYPE_MAPPING = {
 *After Running 
 
 /Downloads 
+
   ├── Images 
   
   │    └── image1.jpg 
@@ -113,6 +115,7 @@ FILE_TYPE_MAPPING = {
   ├── Videos 
   
        └── movie.mp4 
+       
        
        
 #Contributing
@@ -134,6 +137,7 @@ d)Push your branch:
 git push origin feature-name 
 
 e)Open a pull request. 
+
 
 #Acknowledgments
 
