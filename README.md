@@ -1,5 +1,5 @@
 #Project File Organizer
-
+ 
 This project  automatically sorts and organizes files into categorized folders based on their extensions. This tool helps maintain a clean and organized directory by grouping files into specific categories such as images, documents, videos, and more.
 
 #Features
