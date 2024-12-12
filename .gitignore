@@ -14,12 +14,6 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Logs and temporary files
-*.log
-*.tmp
-*.bak
-*.swp
-
 # Python-specific cache files
 *.egg-info/
 .eggs/
